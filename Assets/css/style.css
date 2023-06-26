@@ -70,14 +70,14 @@ section {
 }
 
 .banner{
-  background-image: url("../Assets/images/Portfolio-Pic.JPG") ;
+  background-image: url("/Assets/images/Portfolio-Pic.JPG");
   background-size: cover;
   background-attachment: fixed;
-  height: 195px;
+  height: 100%;
   width: 100%;
   position: relative;
-  z-index: ;
-
+  z-index: 1;
+background-color: #000000;
 
 }
 
