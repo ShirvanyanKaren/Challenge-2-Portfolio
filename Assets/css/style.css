@@ -100,9 +100,8 @@ margin: 40px auto 0px auto;
   
 }
 
-.content {
+/* .content {
   width: ; /* Adjust the width as needed */
-}
 
 .content p{
 color: white;
@@ -119,23 +118,6 @@ color: white;
 padding: 25px 0;
  }
   
- /* .work-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 5px;
-  margin-top: 20px;
- }
-
- 
- .work img{
-  width: 50vh;
-  height: 30vh;
-  margin: 10px;
-  border-radius: 8px;
-  border: 3px solid rgb(92, 92, 199);
-
- } */
 
 
  .work-items {
@@ -147,25 +129,27 @@ padding: 25px 0;
 }
 
   
-.large-image img{
-height: 400px;
-width: 615px; 
-border-radius: 8px;
-  border: 5px solid rgb(92, 92, 199);
 
-
-}
 .column {
-  display: flex;
-  /* flex-direction: column; */
-  /* flex-basis: 50%; */
+display: flex;
+flex-wrap: wrap;
+/* flex-direction: column; */
 }
 
 .work {
-  /* flex-grow: 1; */
+ position: relative;
 }
-
+figcaption {
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  padding: 5px 8px;
+  border: 1px solid rgb(92, 92, 199) ;
+  border-radius: 8px;
+  opacity: 0.7;
+}
 .work img {
+ 
   width: 300px;
   height: 200px;
   margin: 10px;
@@ -181,6 +165,14 @@ border-radius: 8px;
   position: center;
  overflow: hidden; */
 }
+.large-image img{
+  height: 400px;
+  width: 615px; 
+  border-radius: 8px;
+   border: 5px solid rgb(92, 92, 199);
+   margin-top: 20px;
+  
+  }
 .work:hover img {
   transform: scale(1.1)
 }
@@ -188,9 +180,64 @@ border-radius: 8px;
   transform: scale(1.1);
 }
 
+.links{
+  display: block;
+}
+.links{
+  /* position: absolute; */
+  padding: 10px;
+ top: 30px;
+}
+.bottomNav h2{
+  margin-bottom: 10px;
+
+}
 
 
+.bottomNav {
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  
+}
+
+.bottomNav ul{
+display: inline-block;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+.bottomNav li{
+  padding: 10px;
+  list-style: none;
+  display: inline-flex;
+  margin-bottom: 0px;
+}
  
-
+@media screen and (max-width: 768px) {
+  .top-nav{
+    display: block;
+    text-align: center;
+  }
+ .container {
+  display: block;
  
+ }
+ .container h2{
+  text-align: center;
+ }
+ .portfolio{
+  display: flex;
+  flex-wrap: wrap;
+ }
+.work img {
+  width: 100%;
+
+ }
+}
 
