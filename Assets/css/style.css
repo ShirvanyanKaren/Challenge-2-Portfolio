@@ -4,6 +4,7 @@
   box-sizing: border-box; 
   font-family: 'Poppins', sans-serif;
   background-color: rgb(75, 74, 99);
+  color: white;
 }
 html{
   scroll-behavior: smooth;
@@ -61,15 +62,17 @@ color: white;
 
 
 .banner{
-  background-image: url("") ;
-  background-size: cover;
+  background-image: url("/Assets/Images/Port-Pic.JPG") ;
+  background-size: contain;
   background-attachment: fixed;
-  background-position: center;
-  height: 195px;
+  /* background-position: center; */
+  height: 220px;
   width: 100%;
   position: relative;
   z-index: 1;
 background-color: #000000;
+
+
 }
 /* .container{
 margin: 40px auto 0px auto;
@@ -105,12 +108,89 @@ margin: 40px auto 0px auto;
 color: white;
 }
 
-.page h2 {
+ h2 {
   color: white;
   border-right: 4px white;
   font-size: 2rem;
   text-align: center;
   
 }
+ .portfolio{
+padding: 25px 0;
+ }
+  
+ /* .work-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+ }
+
  
-Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, 
+ .work img{
+  width: 50vh;
+  height: 30vh;
+  margin: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(92, 92, 199);
+
+ } */
+
+
+ .work-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+  
+.large-image img{
+height: 400px;
+width: 615px; 
+border-radius: 8px;
+  border: 5px solid rgb(92, 92, 199);
+
+
+}
+.column {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-basis: 50%; */
+}
+
+.work {
+  /* flex-grow: 1; */
+}
+
+.work img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 3px solid rgb(92, 92, 199);
+  transition: transform 0.5s;
+}
+.links{
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background: linear-gradient(rgba(190, 33, 33, 0.6) #ff004f);
+  border-radius: 8px;
+  position: center;
+ overflow: hidden; */
+}
+.work:hover img {
+  transform: scale(1.1)
+}
+.large-image:hover img{
+  transform: scale(1.1);
+}
+
+
+
+ 
+
+ 
+
