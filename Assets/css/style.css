@@ -3,38 +3,32 @@
   padding: 0;
   box-sizing: border-box; 
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(63, 57, 57);
+  background-color: rgb(75, 74, 99);
+}
+html{
+  scroll-behavior: smooth;
 }
 
 .top-nav{
   display: flex;
   justify-content: space-around;
- 
+  align-items: center;
 }
 
 .top-nav h1{
 margin-top: 10px;
 color: white;
-
 }
-nav{
 
-}
 .top-nav ul{
   display: flex;
   display: inline-block;
   justify-content: space-around;
-  margin-bottom: 0px;
-
-
 }
 .top-nav li{
   padding: 10px;
   list-style: none;
   display: inline-flex;
-
-  
-
 }
 
 .top-nav a{
@@ -54,7 +48,7 @@ nav{
   left: 0;
   bottom: -3px;
   z-index: -1; 
-  background: blue;
+  background: rgb(92, 92, 199);
   transition: 0.3s;
   border-radius: 7px;
   position: absolute;
@@ -63,21 +57,60 @@ nav{
 
 .top-nav a:hover::after{
   height: 115%;
+}
 
-}
-section {
-  display: block;
-}
 
 .banner{
-  background-image: url("/Assets/images/Portfolio-Pic.JPG");
+  background-image: url("") ;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
+  background-position: center;
+  height: 195px;
   width: 100%;
   position: relative;
   z-index: 1;
 background-color: #000000;
-
+}
+/* .container{
+margin: 40px auto 0px auto;
+} */
+/* .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 0px auto;
+  padding: 40px;
+} */
+.container {
+    width: 92%;
+    padding-bottom: 120px;
+    margin: 40px auto 0px auto;
+    display: grid;
+    grid-template-columns: 16% 76%;
+    gap: 4%;
 }
 
+.page {
+ display: flex;
+ align-items: center;
+  width: 110%; /* Adjust the width as needed */
+  border-right: 4px solid rgb(92, 92, 199);
+  
+}
+
+.content {
+  width: ; /* Adjust the width as needed */
+}
+
+.content p{
+color: white;
+}
+
+.page h2 {
+  color: white;
+  border-right: 4px white;
+  font-size: 2rem;
+  text-align: center;
+  
+}
+ 
+Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, Placeholder, placerholder, 
