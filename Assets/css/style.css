@@ -1,54 +1,56 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   background-color: rgb(75, 74, 99);
   color: white;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
-.top-nav{
+.top-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.top-nav h1{
-margin-top: 10px;
-color: white;
+.top-nav h1 {
+  margin-top: 10px;
+  color: white;
 }
 
-.top-nav ul{
+.top-nav ul {
   display: flex;
   display: inline-block;
   justify-content: space-around;
 }
-.top-nav li{
+
+.top-nav li {
   padding: 10px;
   list-style: none;
   display: inline-flex;
 }
 
-.top-nav a{
+.top-nav a {
   color: white;
   text-decoration: none;
   position: relative;
   z-index: 2;
-  
+
 
 }
 
-.top-nav a::after{
-  content:'';
-   width: 100%;
+.top-nav a::after {
+  content: '';
+  width: 100%;
   height: 0%;
   bottom: 0;
   left: 0;
   bottom: -3px;
-  z-index: -1; 
+  z-index: -1;
   background: rgb(92, 92, 199);
   transition: 0.3s;
   border-radius: 7px;
@@ -56,25 +58,25 @@ color: white;
 
 }
 
-.top-nav a:hover::after{
+.top-nav a:hover::after {
   height: 115%;
 }
 
 
-.banner{
-  background-image: url('/Assets/Images/Port-Pic.JPG') ;
+.banner {
+  background-image: url('/Assets/Images/Port-Pic.JPG');
   background-size: contain;
   background-attachment: fixed;
-  image-resolution: 1080p;
   /* background-position: center; */
   height: 220px;
   width: 100%;
   position: relative;
   z-index: 1;
-background-color: #000000;
+  background-color: #000000;
 
 
 }
+
 /* .container{
 margin: 40px auto 0px auto;
 } */
@@ -85,43 +87,40 @@ margin: 40px auto 0px auto;
   padding: 40px;
 } */
 .container {
-    width: 92%;
-    padding-bottom: 120px;
-    margin: 40px auto 0px auto;
-    display: grid;
-    grid-template-columns: 16% 76%;
-    gap: 4%;
+  width: 92%;
+  padding-bottom: 120px;
+  margin: 40px auto 0px auto;
+  display: grid;
+  grid-template-columns: 16% 76%;
+  gap: 4%;
 }
 
 .page {
- display: flex;
- align-items: center;
-  width: 110%; /* Adjust the width as needed */
+  display: flex;
+  align-items: center;
+  width: 110%;
+  /* Adjust the width as needed */
   border-right: 4px solid rgb(92, 92, 199);
-  
+
 }
 
-/* .content {
-  width: ; /* Adjust the width as needed */
-
-.content p{
-color: white;
+.content p {
+  color: white;
 }
 
- h2 {
+h2 {
   color: white;
   border-right: 4px white;
   font-size: 2rem;
   text-align: center;
-  
+
 }
- .portfolio{
-padding: 25px 0;
- }
-  
 
+.portfolio {
+  padding: 25px 0;
+}
 
- .work-items {
+.work-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -131,29 +130,33 @@ padding: 25px 0;
   margin-right: 100px;
 }
 
-  
+
 
 .column {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-/* flex-direction: column; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: column; */
 }
 
 .work {
- position: relative;
+  position: relative;
+}
+.port-work h2{
+font-size: 55px;
 }
 figcaption {
   position: absolute;
   z-index: 1;
   bottom: 30px;
   padding: 5px 8px;
-  border: 1px solid rgb(92, 92, 199) ;
+  border: 1px solid rgb(92, 92, 199);
   border-radius: 8px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
+
 .work img {
- 
+
   width: 300px;
   height: 200px;
   margin: 10px;
@@ -161,41 +164,33 @@ figcaption {
   border: 3px solid rgb(92, 92, 199);
   transition: transform 0.5s;
 }
-/* .links{
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(190, 33, 33, 0.6) #ff004f);
-  border-radius: 8px;
-  position: center;
- overflow: hidden;
-} */
-.large-image img{
+
+.large-image img {
   height: 400px;
-  width: 610px; 
+  width: 610px;
   border-radius: 8px;
-   border: 5px solid rgb(92, 92, 199);
-   margin-top: 20px;
-  
-  }
+  border: 5px solid rgb(92, 92, 199);
+  margin-top: 20px;
+
+}
+
 .work:hover img {
   transform: scale(1.1)
 }
-.large-image:hover img{
+
+.large-image:hover img {
   transform: scale(1.1);
 }
 
-.links{
-  /* position: absolute; */
+.links {
   padding: 10px;
- top: 30px;
- display: block;
+  top: 30px;
+  display: block;
 }
 
-.bottomNav h2{
+.bottomNav h2 {
   margin-bottom: 10px;
-
 }
-
 
 .bottomNav {
   display: flex;
@@ -203,76 +198,87 @@ figcaption {
   bottom: 0;
   margin-top: 100px;
   margin-bottom: 10px;
-  
 }
 
-.bottomNav ul{
-display: inline-block;
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin-bottom: 0px;
-padding-bottom: 0px;
+.bottomNav ul {
+  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
-.bottomNav li{
+.bottomNav li {
   padding: 10px;
   list-style: none;
   display: inline-flex;
   margin-bottom: 0px;
 }
- 
+
+/* Created media query for difference screen sizes  */
 @media screen and (max-width: 768px) {
-  .top-nav{
+  .top-nav {
     display: block;
     text-align: center;
   }
- .container {
-  display: block;
-  justify-content: center;
-  margin-bottom: 5px;
- 
- }
- .page{
-  width: 95%;
- }
- .container h2{
-  text-align: center;
- }
- .page{
-  justify-content: center;
-right: 15px;
- }
- .page {
-  border-right: none;
-  border-bottom: 2px solid rgb(92, 92, 199) ;
- }
- .content {
-  margin-top: 30px;
- }
- .portfolio{
-  display: flex;
-  flex-wrap: wrap;
- }
- .content{
-  text-align: center;
- }
- .work-items img{
-  width: 90%;
-  height: 80%;
+
+  .container {
+    display: block;
+    justify-content: center;
+    margin-bottom: 5px;
+
   }
-  .column{
+
+  .page {
+    width: 95%;
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  .page {
+    border-right: none;
+    border-bottom: 2px solid rgb(92, 92, 199);
+    justify-content: center;
+    right: 15px;
+  }
+
+  .content {
+    margin-top: 30px;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .work-items img {
+    width: 90%;
+    height: 80%;
+  }
+
+  .column {
     display: block;
     justify-content: center;
   }
+
   .column img {
     width: 200px;
     height: 150px;
 
   }
-.bottomNav {
-  display: block;
+
+  .bottomNav {
+    display: block;
+  }
+
+  .banner a {
+    height: 80%;
+  }
 }
-
- }
-
