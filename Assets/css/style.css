@@ -64,7 +64,7 @@ html {
 
 
 .banner {
-  background-image: url('/Assets/Images/Port-Pic.JPG');
+  background-image: url('./Port-Pic.jpg');
   background-size: contain;
   background-attachment: fixed;
   /* background-position: center; */
