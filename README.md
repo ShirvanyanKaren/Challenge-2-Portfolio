@@ -73,7 +73,7 @@ For each sections of the navigation portion of the portfolio I included id class
 <section class="bottomNav" id="contact"> for contact
 ```
 
-To address the larger first image and deployed websit of the projects, I created an <a> tag around the image and inserted the appropriated links for the website and repository in the caption.
+To address the larger first image and deployed websit of the projects, I created an a tag around the image and inserted the appropriated links for the website and repository in the caption.
 
 
  ```html
