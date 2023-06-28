@@ -7,8 +7,8 @@
 | HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
 | CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
 | Git | [https://git-scm.com/](https://git-scm.com/)     | 
-| Deployed Site | [https://shirvanyankaren.github.io/Challenge1/](https://shirvanyankaren.github.io/Challenge1/)     | 
-| My Github Repository | [https://github.com/ShirvanyanKaren/Challenge1](https://github.com/ShirvanyanKaren/Challenge1/)     | 
+| Deployed Site | [https://shirvanyankaren.github.io/My-Professional-Portfolio/](https://shirvanyankaren.github.io/My-Professional-Portfolio/)     | 
+| My Github Repository | [https://github.com/ShirvanyanKaren/My-Professional-Portfolio](https://github.com/ShirvanyanKaren/My-Professional-Portfolio/)     | 
 
 ## Description
 The intent of this projext was to create a professional portfolio with CSS and HTML to display a profile for my industry experience with information about myself, my professional projects, and links to those professional projects.
@@ -78,11 +78,11 @@ To address the larger first image and deployed websit of the projects, I created
 
  ```html
  /<div class="work large-image">
-        <a href="https://shirvanyankaren.github.io/Challenge1/" target="_blank">
+        <a href="https://shirvanyankaren.github.io/My-Professional-Portfolio/" target="_blank">
           <img src="./Assets/Images/Digital-Marketing.png" alt="Picture of Digital Marketing">
         </a>
         <div class="links">
-          <a href="https://github.com/ShirvanyanKaren/Challenge1" target="_blank">
+          <a href="https://github.com/ShirvanyanKaren/My-Professional-Portfolio" target="_blank">
             <figcaption>
               <h3>Digital Marketing</h3>
               <p>HTML/CSS</p>
