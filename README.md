@@ -13,7 +13,7 @@
 ## Description
 The intent of this projext was to create a professional portfolio with CSS and HTML to display a profile for my industry experience with information about myself, my professional projects, and links to those professional projects.
 
-![alt image](./Assets/Images/Portfolio-Fin.png)
+![alt image](./Assets/images/Portfolio-Fin.png)
 
 The deployed portfolio above was accomplished by following the listed acceptance criteria:
 
